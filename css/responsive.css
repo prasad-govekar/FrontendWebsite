@@ -1,0 +1,150 @@
+@media(max-width:900px){
+    .hamburger{
+        display: block;
+    }
+    header nav{
+        top: -100%;
+        left: 0;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 14rem;
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+    }
+    nav.active{
+        top: -153px;
+        left: 0;
+    }
+    header li{
+        margin: 0.3rem 0rem;
+        padding: 0.1rem 0rem;
+        margin-left: 2rem;
+    }
+    ul li{
+        margin: 3.5px 14px;
+    }
+    
+    header.active{
+        background-color: black;
+    }
+
+    header{
+        padding: 1.3rem;
+        height: 2rem;
+    }
+    .course{
+        flex-direction: column;
+    }
+    #English{
+        flex-direction: column-reverse;
+    }
+    #Courses{
+        padding-top: 3rem;
+    }
+    #reviews{
+        flex-direction: column;
+    }
+    .course-content h1{
+        text-align: center;
+    }
+    #Contact{
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+    #Home{
+        padding: 13rem 3rem;
+    }
+    .arrow{
+        display: none;
+    }
+    .review{
+        display: block;
+    }
+}
+
+@media(max-width:840px){
+    #Home{
+        padding: 9rem 3rem;
+    }
+    #Courses{
+        padding-top: 2rem;
+    }
+}
+
+@media(max-width:670px){
+    #Home{
+        padding: 4rem 1rem;
+        padding-top: 10rem;
+    }
+    #Courses{
+        padding-top: 4rem;
+    }
+    #Home h1{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:500px){
+    #Courses{
+        padding-top: 5rem;
+    }
+    .course{
+        padding: 1rem 1rem;
+    }
+    #Home{
+        padding: 5rem 4rem;
+    }
+    .course-content h1{
+        text-align: center;
+    }
+    iframe{
+        width: 430px;
+    }
+}
+
+@media(max-width:430px){
+    #Home h1{
+        font-size: 3rem;
+    }
+    #Home h3{
+        font-size: 1.5rem;
+    }
+    #Home{
+        padding: 5rem 1rem;
+        padding-top: 6rem;
+    }
+    #Courses{
+        padding-top: 1rem;
+    }
+    #Contact{
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+    #Contact img{
+        width: 6.5%;
+        height: 4%;
+    }
+    #Enroll-bg{
+        padding: 2rem;
+    }
+    
+    #Enroll{
+        padding: 2rem 2rem;
+        width: 10rem;
+    }
+    form input{
+        width: 10rem;
+        font-size: 0.8rem;
+    }
+    #reviews{
+        padding: 1rem;
+    }
+}
+
+@media(max-width:430px) and (min-width:330px){
+    #Courses{
+        padding-top: 5rem;
+    }
+}

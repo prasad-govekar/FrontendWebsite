@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        margin-top: 1rem;
+        /* margin: 5rem 1rem; */
+    }
+
+    .list {
+        width: 10%;
+        text-align: center;
+        margin: 1rem 1rem;
+        padding: 0.5rem 0.5rem;
+        border: 1px solid black;
+    }
+
+    .links a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .links a:hover {
+        background-color: rgb(255, 255, 0);
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+</style>
+
+<body>
+
+    <span class="links">
+        <h1>Admin Panel</h1>
+        <span>
+            <a href="/admin/userlist" class="list">Download User List</a>
+            <a href="/admin/enrolldata" class="list">Download Enroll List</a>
+        </span>
+    </span>
+    <br>
+</body>
+
+</html>

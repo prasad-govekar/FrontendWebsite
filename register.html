@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/hover_style.css">
+    <link rel="stylesheet" href="./css/jsactive.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    header{
+        background-color: black;
+    }
+</style>
+<body>
+    <header>
+        <div id="logo">isha</div>
+        <nav>
+            <li><a href="/">HOME</a></li>
+            <li><a class="cd" href="#">
+                LANGUAGES
+                <ul>
+                    <li><a href="/german">GERMAN</a></li>
+                    <li><a href="/english">ENGLISH</a></li>
+                    <li><a href="/gujrathi">SPANISH</a></li>
+                </ul>
+            </a>
+            </li>
+            <li><a href="#Contact">CONTACT</a></li>
+        </nav>
+        <div class="signin"> <a href="/login">Login</a> </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <section id="Enroll-bg">
+        <div id="Enroll-G-Form">
+            <form id="form-register">
+                <h3>Register</h3>
+                <input type="text" id="name" name="name" placeholder="Enter Name">
+                <input type="email" id="email" name="email" placeholder="Enter Email">
+                <input type="text"  id="phone" name="phone" placeholder="Enter Phone Number">
+                <input type="password" id="password" name="password" placeholder="Enter Passsword">
+                <input type="password" id="cpassword" name="cpassword" placeholder="Re-Enter Passsword">
+                <button name="button" id="button">Submit</button>
+                <h4>Already have an account? <a href="/login">Login</a> </h4>
+            </form>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <div>
+            <h2>Contact Us</h2>
+            <div class="contactdivnonpointer"><img src="./img/mail.png" alt="mail">
+                <h3>googlemail@gmail.com</h3>
+            </div>
+            <div class="contactdivnonpointer"><img src="./img/telephone.png" alt="phone">
+                <h3>02169-223456</h3>
+            </div>
+            <div class="contactdivnonpointer"><img src="./img/map.png" alt="map">
+                <h3>Katraj, Pune</h3>
+            </div>
+        </div>
+        <div>
+            <h2>Social Media</h2>
+            <div class="contactdiv"><img src="./img/instagram.png" alt="instagram"><a href="https://www.instagram.com" target="blank">
+                    <h3>Instagram</h3>
+                </a></div>
+            <div class="contactdiv"><img src="./img/facebook.png" alt="facebook"><a href="https://www.facebook.com" target="blank">
+                    <h3>Facebook</h3>
+                </a></div>
+            <div class="contactdiv"><img src="./img/twitter.png" alt="twitter"><a href="https://www.twitter.com" target="blank">
+                    <h3>Twitter</h3>
+                </a></div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="copyright">Copyright &copy; www.ishaclasses.com All rights reserved! <br>Designed by Ayush Doshi</div>
+    </footer>
+
+    <script src="./js/register.js"></script>
+
+</body>
+</html>

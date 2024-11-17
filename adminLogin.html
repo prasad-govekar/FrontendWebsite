@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    form input{
+        margin: 0.5rem 0.5rem;
+        width: 20%;
+        height: 1.3rem;
+
+    }
+    form button{
+        margin-top: 1rem;
+        width: 5%;
+        margin: auto;
+    }
+    h1{
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Admin Login</h1>
+    <form action="/admin" method="post">
+        <input type="text" name="username" placeholder="username">
+        <input type="text" name="password" placeholder="password">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

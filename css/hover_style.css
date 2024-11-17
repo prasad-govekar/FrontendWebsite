@@ -1,0 +1,31 @@
+/* header li:hover{
+    transform: scale(1.1);
+} */
+
+header li a:hover{
+    color: #ffed88;
+}
+
+#nav-enroll:hover{
+    background-color: #ffd700;
+}
+
+.signin a:hover{
+    color: #ffed88;
+}
+
+#nav-enroll a:hover{
+    color: black;
+}
+
+#logo:hover{
+    color: #ffed88;
+}
+
+.cd:hover + ul{
+    visibility: visible;
+}
+
+ul:hover{
+    visibility: visible;
+}
